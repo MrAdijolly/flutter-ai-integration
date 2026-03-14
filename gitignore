@@ -1,0 +1,21 @@
+# Flutter build
+/build/
+/.dart_tool/
+.packages
+.pub-cache/
+
+# Android
+/android/.gradle
+/android/app/build
+
+# iOS
+/ios/Pods
+
+# Logs
+*.log
+
+# Lock files
+*.lock
+
+# Secrets
+lib/api_key.dart
