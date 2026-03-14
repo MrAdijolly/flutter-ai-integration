@@ -1,17 +1,92 @@
-# sn_project
+# Structured Notes AI
 
-A new Flutter project.
+Prototype Flutter application that generates **structured academic notes using AI**.
+
+This project is designed to help students quickly generate **well-organized study notes** for different academic streams such as Engineering, Polytechnic, and Arts & Science.
+
+---
+
+## Features
+
+* AI-generated academic notes
+* Clean structured output
+* Supports multiple academic streams
+* Simple and user-friendly interface
+
+---
+
+## Tech Stack
+
+* **Flutter**
+* **Dart**
+* **Gemini API (Google Generative AI)**
+
+---
+
+## Project Structure
+
+```
+lib/
+ ├── main.dart
+ ├── integrateAI.dart
+ ├── semester.dart
+ ├── subjects.dart
+ └── api_key.dart (ignored from Git)
+```
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository
 
-A few resources to get you started if this is your first Flutter project:
+```
+git clone https://github.com/YOUR_USERNAME/sn_project.git
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+2. Navigate to the project folder
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+cd sn_project
+```
+
+3. Install dependencies
+
+```
+flutter pub get
+```
+
+4. Run the application
+
+```
+flutter run
+```
+
+---
+
+## Security Note
+
+The **Gemini API key is not included in the repository**.
+Create a file:
+
+```
+lib/api_key.dart
+```
+
+and add your API key:
+
+```dart
+const String geminiApiKey = "YOUR_API_KEY";
+```
+
+---
+
+## Author
+
+**Adi Jolly**
+
+---
+
+## License
+
+This project is for educational and prototype purposes.
