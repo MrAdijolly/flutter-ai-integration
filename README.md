@@ -21,6 +21,16 @@ This project is designed to help students quickly generate **well-organized stud
 * **Dart**
 * **Gemini API (Google Generative AI)**
 
+
+  ## Requirements
+
+- Flutter SDK → https://docs.flutter.dev/get-started/install  
+- Git → https://git-scm.com/downloads  
+- Android Studio → https://developer.android.com/studio  
+- VS Code → https://code.visualstudio.com/  
+
+  
+
 ---
 
 ## Project Structure
