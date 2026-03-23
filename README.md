@@ -77,11 +77,7 @@ flutter run
 ## Security Note
 
 The **Gemini API key is not included in the repository**.
-Create a file:
-
-```
-lib/api_key.dart
-```
+Create a api key from gemini using aistudio
 
 and add your API key:
 
